@@ -1,0 +1,21 @@
+[
+  { "firstname": "Noel", "lastname": "Perland", "personalityType": "yellow" },
+  { "firstname": "Alex", "lastname": "Saxena", "personalityType": "yellow" },
+  { "firstname": "Knatte", "lastname": "Larsson", "personalityType": "yellow" },
+
+  { "firstname": "Vadzim", "lastname": "Kulikouski", "personalityType": "red" },
+  { "firstname": "Sanaz", "lastname": "Effati", "personalityType": "red" },
+  { "firstname": "Fnatte", "lastname": "Larsson", "personalityType": "red" },
+
+  { "firstname": "Peter", "lastname": "Karlsson", "personalityType": "blue" },
+  { "firstname": "Linus", "lastname": "Härén", "personalityType": "blue" },
+  { "firstname": "Tjatte", "lastname": "Larsson", "personalityType": "blue" },
+
+  { "firstname": "Tom", "lastname": "Johansson", "personalityType": "green" },
+  {
+    "firstname": "Gustav",
+    "lastname": "Franchell",
+    "personalityType": "green"
+  },
+  { "firstname": "Latte", "lastname": "Larsson", "personalityType": "green" }
+]
