@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html>
+  <title>
+    CrabColorSelector
+  </title>
   <head>
-    <script src="script.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <script src="script.js" defer></script>
     <title></title>
+    <style>
+      .yellow{
+        color:rgb(146, 146, 25);
+  
+      }
+      .red {
+        color: red
+      }
+      .blue{
+        color: blue
+      }
+      .green {
+        color: green
+      }
+    </style>
   </head>
+  
   <body>
-    <h1>Build a team with one of every color!</h1>
+    <h1>Build a team </h1>
     <h3>What color do you want?</h3>
 
     <label for="color">Choose a color:</label>
@@ -17,9 +40,11 @@
     </select>
     <button onclick="getMembersByColor()">Submit</button>
 
-    <p>Which member do you want?</p>
-    <label for="name">Name:</label>
-    <input id="name" color="name" type="text" />
-    <button onclick="otherfunction()">Submit</button>
+    <div class="containorPeople"></div>
+    <div class="printMembers">
+
+    </div>
+    <!-- <p>Which member do you want?</p>
+    <button onclick="otherfunction()">Submit</button> -->
   </body>
 </html>
